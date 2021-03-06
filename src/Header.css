@@ -1,0 +1,45 @@
+.header{
+    display:flex;
+    padding: 15px 25px;
+    justify-content: space-between;
+}
+.logo{
+    height:30px;
+    width:auto;
+    margin-right:20px;
+}
+.srch_box{
+    width: 60%;
+    border-radius: 100px;
+    background-color: #eee;
+    border:0px;
+    height: 35px;
+    padding: 5px 20px;
+}
+.new{background: linear-gradient(        94deg        ,#ff2a2a,#7074ff);
+        /* background: -webkit-linear-gradient(#eee, #333); */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.grn_btn{
+    background-color: rgb(0, 136, 72);
+    border-radius: 5px;
+    height: 35px;
+    color:#fff;
+    padding: 8px 12px;
+    border:1px solid #ddd;
+}
+.wht_btn{
+background-color: #fff;
+height: 30px;
+border-radius: 5px;
+border:1px solid #ddd;
+color:#777;
+}
+a{
+    color:#999;
+    text-decoration: none;
+}
+a:hover{
+    color:#555;
+}

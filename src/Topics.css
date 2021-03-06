@@ -1,0 +1,16 @@
+.bl_nav{
+    box-shadow: 0px 5px 5px #ddd;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid #555; */
+}
+.scroll_tpoic{
+    width: fit-content;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-between;
+}
+.scroll_tpoic::-webkit-scrollbar{
+    display: none;
+}
