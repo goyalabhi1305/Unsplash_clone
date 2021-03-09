@@ -14,3 +14,7 @@
 .scroll_tpoic::-webkit-scrollbar{
     display: none;
 }
+.scroll_tpoic a{
+    color:#333;
+    margin-left:20px;
+}

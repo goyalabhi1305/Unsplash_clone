@@ -1,0 +1,85 @@
+.box{
+    padding-top: 60px;
+    padding-bottom: 72px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.left > p{
+    width: 624px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.hdr{
+    font-size: 46px;
+}
+p.sprt{
+    font-weight: 400;
+    font-size: 13px;
+    color:#888;display: inline;
+}
+.ms_img{
+    height: 30px;
+}
+.pow_spp{
+    display: flex;
+    align-items: center;
+}
+.link_blk{
+    color: #000;
+    font-size: 13px;
+}
+.right{    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 24px;
+    margin-top:50px;
+    height:200px;
+    width: 400px;
+}
+.right .part{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 17px 10px;
+    height: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.right .part:last-child{
+    border-bottom:none;
+}
+.gr_active::before{width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    content: " ";
+    background-color: #3cb46e;
+    display: inline-block;
+    margin-right: 6px;
+}
+.gr_active{padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #c2ebd3;
+    display: inline-flex;
+    align-items: center;
+}
+
+.img_cntb{
+    border-radius: 50%;
+    padding: 0px 3px;
+}
+.btm_btn{
+    margin-top:20px;
+    background-color: #000;
+    color:#fff;
+    border:1px solid #000;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 17px;
+    width: 100%;
+}

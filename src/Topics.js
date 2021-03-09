@@ -6,10 +6,10 @@ function Topics() {
         <div className="bl_nav">
             <a href="#">Editorial</a>
             <div className="scroll_tpoic">
-                <a href="">Item1</a>
-                <a href="">Item1</a>
-                <a href="">Item1</a>
-                <a href="">Item1</a>
+                <a href="">Wallpaper</a>
+                <a href="">People</a>
+                <a href="">Nature</a>
+                <a href="">Architecture</a>
                 <a href="">Item1</a>
                 <a href="">Item1</a>
                 <a href="">Item1</a>
@@ -55,7 +55,7 @@ function Topics() {
                 <a href="">Item1</a>
                 <a href="">Item1</a>
             </div>
-            <a href="#">Editorial</a>
+            <a href="#">View all</a>
         </div>
     )
 }
