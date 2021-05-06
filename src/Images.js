@@ -17,7 +17,8 @@ function Images() {
         const fetchData = async () => {
             try {
                 const request = await axios.get(url_fetch);
-                request.data?.map((val) => {
+                request.data?.forEach((val) => {
+
                     const img_url = val.urls.regular
                     SetImg(state=> [...state,img_url])
                 })

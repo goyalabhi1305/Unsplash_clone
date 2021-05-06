@@ -10,7 +10,7 @@ function Box() {
                 <div className="pow_spp">
                 <p className="sprt">Supported by &nbsp;</p><img className="ms_img" src="https://images.unsplash.com/file-1613596651301-295c081cd4b7image" alt="" />
                 </div>
-                <a className="link_blk" href="#">Original by Design</a>
+                <a className="link_blk" href="/original">Original by Design</a>
             </div>
             <div className="lft_cnt">
                 <div className="right">

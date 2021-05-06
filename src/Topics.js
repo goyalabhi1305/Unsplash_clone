@@ -4,14 +4,14 @@ import "./Topics.css";
 function Topics() {
     return (
         <div className="bl_nav">
-            <a href="#">Editorial</a>
+            <a href="/editorial">Editorial</a>
             <div className="scroll_tpoic">
-                <a href="#">Wallpaper</a>
-                <a href="#">People</a>
-                <a href="#">Nature</a>
-                <a href="#">Architecture</a>
+                <a href="/wallpaper">Wallpaper</a>
+                <a href="/people">People</a>
+                <a href="/nature">Nature</a>
+                <a href="/architecture">Architecture</a>
             </div>
-            <a href="#">View all</a>
+            <a href="/all">View all</a>
         </div>
     )
 }
