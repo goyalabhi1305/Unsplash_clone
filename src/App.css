@@ -1,0 +1,12 @@
+.imgcnt{
+    padding: 40px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 30% 30% 30%;
+}
+.img_singl{    max-height: 300px;
+    object-fit: cover;
+    max-width: -moz-fit-content;
+    max-width: 100%;
+    min-width: 100%;
+}
